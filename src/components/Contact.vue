@@ -13,6 +13,7 @@ import {
   SelectValue,
 } from "./ui/select";
 import { Textarea } from "./ui/textarea";
+import { Building2, Mail, Clock } from "lucide-vue-next";
 
 interface ContactFormeProps {
   firstName: string;
@@ -151,7 +152,7 @@ const contactForm = reactive<ContactFormeProps>({
               />
             </div>
 
-            <Button class="mt-4">KIRIM PESAN</Button>
+            <Button class="mt-4" href="#hero">KIRIM PESAN</Button>
           </form>
         </CardContent>
 

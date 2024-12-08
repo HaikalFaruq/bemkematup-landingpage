@@ -30,7 +30,7 @@ interface RouteProps {
 
 const routeList: RouteProps[] = [
   {
-    href: "#hiw",
+    href: "#hoiw",
     label: "AMBARAYA",
   },
   {
