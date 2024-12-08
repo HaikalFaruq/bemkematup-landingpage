@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/card";
 
 import { Button } from "@/components/ui/button";
-
 import Instagram from "@/icons/Instagram.vue";
 </script>
 
@@ -27,7 +26,7 @@ import Instagram from "@/icons/Instagram.vue";
             <CardTitle class="text-4xl md:text-5xl font-bold">
               <Component
                 class="w-20 h-20 m-auto mb-4"
-                :is="Instagram"
+                :is= "Instagram"
               />
               IKUTI KAMI DI
               <span
