@@ -24,7 +24,6 @@ PROJECT WEBSITE BEM KEMA Telkom University Purwokerto
 - [x] Fully Responsive Design
 - [x] User Friendly Navigation
 - [x] Dark Mode & Light Mode
-- [x] Meta tags
 
 ## How to install
 
