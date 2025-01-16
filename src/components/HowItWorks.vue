@@ -26,14 +26,14 @@ const HowItWorksList: HowItWorksProps[] = [
   },
   {
     badgeTitle: "SEKRETARIS JENDERAL",
-    title: "Devita Rahma Savitri",
+    title: "Devita Rahma Safitri",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, odit similique quasi sint.",
     image: "devita.svg",
   },
   {
     badgeTitle: "BENDAHARA UMUM",
-    title: "Rahma Cahya Ningsih",
+    title: "Rachma Cahyaningsih",
     description:
       "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem fugiat, quasi sint reiciendis quidem iure.",
     image: "rachma.svg",

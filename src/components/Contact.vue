@@ -18,7 +18,6 @@ import { Building2, Mail, Clock } from "lucide-vue-next";
 interface ContactFormeProps {
   firstName: string;
   lastName: string;
-  email: string;
   subject: string;
   message: string;
 }
@@ -26,18 +25,32 @@ interface ContactFormeProps {
 const contactForm = reactive<ContactFormeProps>({
   firstName: "",
   lastName: "",
-  email: "",
   subject: "",
   message: "",
 });
 
+const sendMessage = () => {
+  const { firstName, lastName, subject, message } = contactForm;
+
+  // Validasi input
+  if (!firstName || !lastName || !subject || !message) {
+    alert("Semua field harus diisi!");
+    return;
+  }
+
+  // Template pesan WhatsApp
+  const whatsappMessage = `*${firstName} ${lastName}*\n\n*Subject:*\n${subject}\n\n*Message:*\n${message}`;
+  const whatsappUrl = `https://wa.me/6285156634579?text=${encodeURIComponent(
+    whatsappMessage
+  )}`;
+
+  // Redirect ke WhatsApp
+  window.open(whatsappUrl, "_blank");
+};
 </script>
 
 <template>
-  <section
-    id="contact"
-    class="container py-24 sm:py-32"
-  >
+  <section id="contact" class="container py-24 sm:py-32">
     <section class="grid grid-cols-1 md:grid-cols-2 gap-8">
       <div>
         <div class="mb-4">
@@ -56,9 +69,12 @@ const contactForm = reactive<ContactFormeProps>({
               <div class="font-bold">SEKRETARIAT BEM KEMA TUP</div>
             </div>
 
-            <div>Jl. DI Panjaitan No.128 53147 Purwokerto Jawa Tengah - Gedung DSP lt.02</div>
+            <div>
+              Jl. DI Panjaitan No.128 53147 Purwokerto Jawa Tengah - Gedung DSP
+              lt.02
+            </div>
           </div>
-          
+
           <div>
             <div class="flex gap-2 mb-1">
               <Mail />
@@ -82,13 +98,11 @@ const contactForm = reactive<ContactFormeProps>({
         </div>
       </div>
 
-      <!-- form -->
+      <!-- Form -->
       <Card class="bg-muted/60 dark:bg-card">
         <CardHeader class="text-primary text-2xl"> </CardHeader>
         <CardContent>
-          <form
-            class="grid gap-4"
-          >
+          <form class="grid gap-4" @submit.prevent="sendMessage">
             <div class="flex flex-col md:flex-row gap-8">
               <div class="flex flex-col w-full gap-1.5">
                 <Label for="first-name">First Name</Label>
@@ -112,16 +126,6 @@ const contactForm = reactive<ContactFormeProps>({
             </div>
 
             <div class="flex flex-col gap-1.5">
-              <Label for="email">Email</Label>
-              <Input
-                id="email"
-                type="email"
-                placeholder="email@gmail.com"
-                v-model="contactForm.email"
-              />
-            </div>
-
-            <div class="flex flex-col gap-1.5">
               <Label for="subject">Subject</Label>
 
               <Select v-model="contactForm.subject">
@@ -130,13 +134,9 @@ const contactForm = reactive<ContactFormeProps>({
                 </SelectTrigger>
                 <SelectContent>
                   <SelectGroup>
-                    <SelectItem value="Aspirasi">
-                      Aspirasi
-                    </SelectItem>
-                    <SelectItem value="Kerja Sama">
-                      Kerja Sama
-                    </SelectItem>
-                    <SelectItem value="Kontak"> Kontak </SelectItem>
+                    <SelectItem value="Aspirasi">Aspirasi</SelectItem>
+                    <SelectItem value="Kerja Sama">Kerja Sama</SelectItem>
+                    <SelectItem value="Kontak">Kontak</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
@@ -152,7 +152,7 @@ const contactForm = reactive<ContactFormeProps>({
               />
             </div>
 
-            <Button class="mt-4" href="#hero">KIRIM PESAN</Button>
+            <Button class="mt-4" type="submit">KIRIM PESAN</Button>
           </form>
         </CardContent>
 
