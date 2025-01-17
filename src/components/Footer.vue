@@ -30,7 +30,7 @@ import Separator from "./ui/separator/Separator.vue";
           <h3 class="font-bold text-lg">BANTUAN</h3>
           <div>
             <a
-              href="#"
+              href="http://www.youtube.com/@bemkematelupurwokerto"
               class="opacity-60 hover:opacity-100 flex justify-end"
             >
               Youtube
@@ -39,7 +39,7 @@ import Separator from "./ui/separator/Separator.vue";
 
           <div>
             <a
-              href="#"
+              href="https://www.instagram.com/bemkematelupurwokerto/"
               class="opacity-60 hover:opacity-100 flex justify-end"
             >
               Instagram
@@ -48,7 +48,7 @@ import Separator from "./ui/separator/Separator.vue";
 
           <div>
             <a
-              href="#"
+              href="https://wa.me/+6285156634579"
               class="opacity-60 hover:opacity-100 flex justify-end"
             >
               WhatsApp

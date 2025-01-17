@@ -26,98 +26,98 @@ interface SocialNetworkProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "/src/assets/putri.JPG",
+    imageUrl: "/putri.JPG",
     firstName: "Putri Aulia",
     lastName: "Hamzah",
     positions: ["Menteri Kaderisasi"],
     socialNetworks: [
       {
         name: "Whatsapp",
-        url: "/",
+        url: "https://wa.me/6282235865706",
       },
     ],
   },
   {
-    imageUrl: "/src/assets/wina.JPG",
+    imageUrl: "/wina.JPG",
     firstName: "Hafizhah Wina",
     lastName: "Rahmasari",
     positions: ["Menteri Ekonomi Kreatif"],
     socialNetworks: [
       {
         name: "Whatsapp",
-        url: "/",
+        url: "https://wa.me/+621380023424",
       },
     ],
   },
   {
-    imageUrl: "/src/assets/lintang.JPG",
+    imageUrl: "/lintang.JPG",
     firstName: "Lintang Cahya",
     lastName: "Mulyadani",
     positions: ["Menteri Minat dan Bakat"],
     socialNetworks: [
       {
         name: "Whatsapp",
-        url: "/",
+        url: "https://wa.me/+6282226582646",
       },
     ],
   },
   {
-    imageUrl: "/src/assets/arkan.JPG",
+    imageUrl: "/arkan.JPG",
     firstName: "Rafif Arkan Nadhifa",
     lastName: "Arkhab",
     positions: ["Menteri KOMINFO"],
     socialNetworks: [
       {
         name: "Whatsapp",
-        url: "/",
+        url: "https://wa.me/+6282328607967",
       },
     ],
   },
   {
-    imageUrl: "/src/assets/rere.JPG",
+    imageUrl: "/rere.JPG",
     firstName: "Theresia Claudia",
     lastName: "Tambun",
     positions: ["Menteri Riset dan Teknologi"],
     socialNetworks: [
       {
         name: "Whatsapp",
-        url: "/",
+        url: "https://wa.me/+6281361237675",
       },
     ],
   },
   {
-    imageUrl: "/src/assets/anggit.JPG",
+    imageUrl: "/anggit.JPG",
     firstName: "Anggitya Yhusuf",
     lastName: "Fikrandi",
     positions: ["Menteri Dalam Negeri"],
     socialNetworks: [
       {
         name: "Whatsapp",
-        url: "/",
+        url: "https://wa.me/+6287822799070",
       },
     ],
   },
   {
-    imageUrl: "/src/assets/dava.JPG",
+    imageUrl: "/dava.JPG",
     firstName: "Dava Ardana",
     lastName: "V.A",
     positions: ["Menteri Luar Negeri"],
     socialNetworks: [
       {
         name: "Whatsapp",
-        url: "/",
+        url: "https://wa.me/+6288293673283",
       },
     ],
   },
   {
-    imageUrl: "/src/assets/izhar.JPG",
+    imageUrl: "/izhar.JPG",
     firstName: "Muhammad",
     lastName: "Izhar",
     positions: ["Menteri ADKASTRAT"],
     socialNetworks: [
       {
         name: "Whatsapp",
-        url: "/",
+        url: "https://wa.me/+6281235295087",
       },
     ],
   },
