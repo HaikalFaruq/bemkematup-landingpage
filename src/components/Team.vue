@@ -22,12 +22,12 @@ interface SocialNetworkProps {
   url: string;
 }
 
-// import putriImage from "@/assets/"
+// import putriImage from "@/assets/putri.JPG";
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "/dist/putri.JPG",
-    firstName: " Putri Aulia",
+    imageUrl: "/src/assets/putri.JPG",
+    firstName: "Putri Aulia",
     lastName: "Hamzah",
     positions: ["Menteri Kaderisasi"],
     socialNetworks: [
@@ -38,7 +38,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/dist/wina.JPG",
+    imageUrl: "/src/assets/wina.JPG",
     firstName: "Hafizhah Wina",
     lastName: "Rahmasari",
     positions: ["Menteri Ekonomi Kreatif"],
@@ -50,7 +50,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/dist/lintang.JPG",
+    imageUrl: "/src/assets/lintang.JPG",
     firstName: "Lintang Cahya",
     lastName: "Mulyadani",
     positions: ["Menteri Minat dan Bakat"],
@@ -62,7 +62,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/dist/arkan.JPG",
+    imageUrl: "/src/assets/arkan.JPG",
     firstName: "Rafif Arkan Nadhifa",
     lastName: "Arkhab",
     positions: ["Menteri KOMINFO"],
@@ -74,7 +74,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/dist/rere.JPG",
+    imageUrl: "/src/assets/rere.JPG",
     firstName: "Theresia Claudia",
     lastName: "Tambun",
     positions: ["Menteri Riset dan Teknologi"],
@@ -86,7 +86,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/dist/anggit.JPG",
+    imageUrl: "/src/assets/anggit.JPG",
     firstName: "Anggitya Yhusuf",
     lastName: "Fikrandi",
     positions: ["Menteri Dalam Negeri"],
@@ -98,7 +98,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/dist/dava.JPG",
+    imageUrl: "/src/assets/dava.JPG",
     firstName: "Dava Ardana",
     lastName: "V.A",
     positions: ["Menteri Luar Negeri"],
@@ -110,7 +110,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/dist/izhar.JPG",
+    imageUrl: "/src/assets/izhar.JPG",
     firstName: "Muhammad",
     lastName: "Izhar",
     positions: ["Menteri ADKASTRAT"],
