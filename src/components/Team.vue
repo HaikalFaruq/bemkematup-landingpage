@@ -9,6 +9,8 @@ import {
 
 import WhatsappIcon from "@/icons/WhatsappIcon.vue";
 
+import putriImage from "@/assets/";
+
 interface TeamProps {
   imageUrl: string;
   firstName: string;
@@ -24,7 +26,7 @@ interface SocialNetworkProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "/dist/putri.JPG",
+    imageUrl: putriImage,
     firstName: " Putri Aulia",
     lastName: "Hamzah",
     positions: ["Menteri Kaderisasi"],
