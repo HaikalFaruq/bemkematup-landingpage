@@ -24,7 +24,7 @@ interface SocialNetworkProps {
 
 const teamList: TeamProps[] = [
   {
-    imageUrl: "/src/assets/putri.JPG",
+    imageUrl: "/dist/putri.JPG",
     firstName: " Putri Aulia",
     lastName: "Hamzah",
     positions: ["Menteri Kaderisasi"],
@@ -36,7 +36,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/src/assets/wina.JPG",
+    imageUrl: "/dist/wina.JPG",
     firstName: "Hafizhah Wina",
     lastName: "Rahmasari",
     positions: ["Menteri Ekonomi Kreatif"],
@@ -48,7 +48,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/src/assets/lintang.JPG",
+    imageUrl: "/dist/lintang.JPG",
     firstName: "Lintang Cahya",
     lastName: "Mulyadani",
     positions: ["Menteri Minat dan Bakat"],
@@ -60,7 +60,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/src/assets/arkan.JPG",
+    imageUrl: "/dist/arkan.JPG",
     firstName: "Rafif Arkan Nadhifa",
     lastName: "Arkhab",
     positions: ["Menteri KOMINFO"],
@@ -72,7 +72,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/src/assets/rere.JPG",
+    imageUrl: "/dist/rere.JPG",
     firstName: "Theresia Claudia",
     lastName: "Tambun",
     positions: ["Menteri Riset dan Teknologi"],
@@ -84,7 +84,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/src/assets/anggit.JPG",
+    imageUrl: "/dist/anggit.JPG",
     firstName: "Anggitya Yhusuf",
     lastName: "Fikrandi",
     positions: ["Menteri Dalam Negeri"],
@@ -96,7 +96,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/src/assets/dava.JPG",
+    imageUrl: "/dist/dava.JPG",
     firstName: "Dava Ardana",
     lastName: "V.A",
     positions: ["Menteri Luar Negeri"],
@@ -108,7 +108,7 @@ const teamList: TeamProps[] = [
     ],
   },
   {
-    imageUrl: "/src/assets/izhar.JPG",
+    imageUrl: "/dist/izhar.JPG",
     firstName: "Muhammad",
     lastName: "Izhar",
     positions: ["Menteri ADKASTRAT"],
